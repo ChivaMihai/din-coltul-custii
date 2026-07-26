@@ -1,0 +1,154 @@
+{
+  "theme": "dark",
+  "typography": {
+    "fonts": [
+      {
+        "family": "Bebas Neue",
+        "category": "headings",
+        "usage": "H1, H2, massive kinetic numbers, main hero text",
+        "weight": "400"
+      },
+      {
+        "family": "Outfit",
+        "category": "subheadings",
+        "usage": "H3, H4, small overlines, component labels",
+        "weight": "400, 600, 700"
+      },
+      {
+        "family": "Manrope",
+        "category": "body",
+        "usage": "Article text, paragraphs, descriptions",
+        "weight": "400, 500"
+      }
+    ],
+    "scale": {
+      "h1": "text-6xl md:text-8xl lg:text-[10vw] uppercase tracking-tighter leading-none",
+      "h2": "text-4xl md:text-6xl uppercase tracking-tight",
+      "h3": "text-2xl md:text-3xl font-semibold tracking-tight",
+      "body": "text-base md:text-lg text-neutral-400 leading-relaxed",
+      "overline": "text-xs md:text-sm uppercase tracking-[0.2em] text-red-500 font-bold"
+    },
+    "installation_instructions": "Add Google Fonts links in public/index.html for Bebas Neue, Outfit, and Manrope."
+  },
+  "colors": {
+    "archetype": "THE PERFORMANCE PRO (Elite Athleticism)",
+    "background": {
+      "DEFAULT": "#0A0A0A",
+      "surface": "#121212",
+      "card": "#1A1A1A"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#A3A3A3",
+      "muted": "#737373"
+    },
+    "accent": {
+      "primary": "#E60000",
+      "hover": "#FF1A1A",
+      "subtle": "rgba(230, 0, 0, 0.1)"
+    },
+    "border": {
+      "DEFAULT": "#262626",
+      "focus": "#404040"
+    }
+  },
+  "visual_enhancers": {
+    "surfaces": [
+      {
+        "name": "Glass Navigation",
+        "classes": "backdrop-blur-xl bg-black/60 border-b border-white/10"
+      },
+      {
+        "name": "Editorial Cards",
+        "classes": "bg-[#121212] border border-[#262626] hover:border-red-600 transition-colors duration-300"
+      },
+      {
+        "name": "Image Overlay",
+        "classes": "bg-black/50"
+      }
+    ],
+    "effects": {
+      "grain": "Use a subtle SVG noise overlay fixed to the background to give a gritty, documentary feel.",
+      "shadows": "Hard, flat shadows for buttons (Brutalist sports style) rather than soft diffuse shadows."
+    }
+  },
+  "layouts": {
+    "grid_system": "The 'Tetris' Grid (Mode A) for marketing/portfolio pages. Use grid-cols-1 md:grid-cols-12 with gap-6 or gap-8.",
+    "spacing": "Generous spacing. py-24 or py-32 for section paddings. Container padding px-4 md:px-8.",
+    "alignment": "Left-align mostly for editorial feel. Center-align only for massive manifesto numbers."
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#E60000] text-white uppercase font-bold tracking-widest px-8 py-4 hover:bg-white hover:text-black transition-colors duration-300",
+      "outline": "border border-[#262626] text-white px-8 py-4 hover:border-white transition-colors duration-300"
+    },
+    "hero": {
+      "style": "Kinetic Hero. Full viewport height. Background image with bg-black/60 overlay. Text uses Framer Motion for line-by-line reveal. Text must be MASSIVE.",
+      "content": "Title 'Din Colțul Cuștii'. Main text: 'MMA-ul din spatele ecranelor. Lecții reale din antrenamente, competiții, victorii și înfrângeri. Drumul unui luptător de la zero spre performanță.'"
+    },
+    "manifesto_list": {
+      "style": "Numbered chapters for Mindset section. Huge stroke numbers (e.g., text-stroke text-transparent) positioned absolutely behind the text."
+    },
+    "timeline": {
+      "style": "Vertical line on left side. Nodes for each competition. High contrast text."
+    },
+    "marquee": {
+      "style": "Fast-moving kinetic typography band to separate sections. Massive outline text or solid red bar."
+    }
+  },
+  "motion": {
+    "libraries": ["framer-motion", "lenis", "react-fast-marquee"],
+    "scroll": "MUST implement Lenis for smooth momentum scrolling. This is critical for the premium Awwwards feel.",
+    "animations": {
+      "text_reveal": "Line-by-line mask reveal for headings (y: 100%, opacity: 0 to y: 0, opacity: 1, overflow: hidden on parent).",
+      "parallax": "Hero image should scale/translate slightly on scroll.",
+      "hover": "Images in article grids should scale up slightly (scale 1.05) inside a hidden overflow container."
+    }
+  },
+  "image_urls": [
+    {
+      "category": "Hero Background / Cage Portrait",
+      "url": "https://images.pexels.com/photos/28550403/pexels-photo-28550403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Moody shot of a muscular MMA fighter seen through the cage at night."
+    },
+    {
+      "category": "Training Section",
+      "url": "https://images.unsplash.com/photo-1737381556257-9307b8ae56e6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHw0fHxNTUElMjB0cmFpbmluZyUyMGRhcmslMjBneW18ZW58MHx8fHwxNzg1MDMwNzc1fDA&ixlib=rb-4.1.0&q=85",
+      "description": "A black and white photo of two men boxing"
+    },
+    {
+      "category": "Competitions / Action",
+      "url": "https://images.pexels.com/photos/29015508/pexels-photo-29015508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "A serious MMA fighter standing in a cage arena, ready for competition."
+    },
+    {
+      "category": "General Editorial / Accent",
+      "url": "https://images.unsplash.com/photo-1561532325-7d5231a2dede?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwzfHxNTUElMjB0cmFpbmluZyUyMGRhcmslMjBneW18ZW58MHx8fHwxNzg1MDMwNzc1fDA&ixlib=rb-4.1.0&q=85",
+      "description": "Pair of red boxing gloves in the dark."
+    }
+  ],
+  "accessibility": {
+    "contrast": "Ensure pure white text on deep black/red backgrounds meets WCAG AAA.",
+    "motion": "Respect prefers-reduced-motion for Lenis and Framer Motion.",
+    "testing": "All interactive elements MUST have data-testid attributes."
+  },
+  "instructions_to_main_agent": [
+    "Execute in Javascript, not Typescript (use .js and .jsx files).",
+    "Install required dependencies: framer-motion, @studio-freight/react-lenis, react-fast-marquee, lucide-react, clsx, tailwind-merge.",
+    "Set up Tailwind colors in index.css to match the Deep Obsidian background and Electric Crimson accent.",
+    "The Hero section must feature the provided cage portrait image as a background with a heavy bg-black/50 or bg-black/60 overlay. Use Framer motion to animate the text 'Din Colțul Cuștii' in a staggering line reveal.",
+    "Create a responsive Navbar that floats and uses a backdrop blur.",
+    "Implement the 'About Me' section as an asymmetrical Bento grid.",
+    "Implement the 'Mindset' section using large, brutalist, transparent outline numbers (text-stroke) behind the text.",
+    "Build the blog 'Articles' section with heavy bottom borders and a clean editorial feel.",
+    "Never use generic placeholder image URLs. Use the provided Unsplash/Pexels URLs."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Do not use complete transparent backgrounds for the navigation header, overlays, or any surface that has content under it.",
+    "Apply data-testid to every button, link, and interactive element.",
+    "Make the design distinctive and bold, avoiding 'AI slop' generic centered designs.",
+    "Implement micro-interactions for all hover states.",
+    "Use generous padding (e.g., p-8 to p-16) to create breathing room.",
+    "Prioritize using HTML + Tailwind CSS for marketing layouts to ensure absolute freedom for asymmetry."
+  ]
+}
