@@ -86,8 +86,7 @@ export default function Navbar() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-40 bg-obsidian lg:hidden pt-24 px-6"
-          >
+className="fixed inset-0 z-40 bg-black lg:hidden pt-24 px-6 overflow-y-auto"          >
             <nav className="flex flex-col gap-2">
               {NAV.map((item, i) => (
                 <motion.div
@@ -99,8 +98,7 @@ export default function Navbar() {
                   <Link
                     to={item.path}
                     data-testid={`mobile-nav-link-${item.path === "/" ? "home" : item.path.slice(1)}`}
-                    className="font-display text-4xl tracking-wide py-2 block border-b border-white/5 hover:text-crimson transition-colors"
-                  >
+className="font-display text-2xl tracking-wide py-3 block border-b border-white/10 hover:text-crimson transition-colors"                  >
                     {item.label}
                   </Link>
                 </motion.div>
