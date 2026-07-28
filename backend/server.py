@@ -277,6 +277,7 @@ app.add_middleware(
     "http://127.0.0.1:3000",
     "http://192.168.100.35:3000",
 "https://din-coltul-custii.vercel.app",
+"https://din-coltul-custii-4n9h0n5go-dincoltulcustii.vercel.app",
 ],
     allow_methods=["*"],
     allow_headers=["*"],
