@@ -51,7 +51,7 @@ export default function Footer() {
 
         <div className="mt-14 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between gap-4 text-neutral-600 font-body text-sm">
           <span>© {new Date().getFullYear()} {s.siteName || "Din Colțul Cuștii"}. Toate drepturile rezervate.</span>
-          <Link to="/admin/login" data-testid="footer-admin-link" className="hover:text-neutral-300 transition-colors">Admin</Link>
+          
         </div>
       </div>
     </footer>
