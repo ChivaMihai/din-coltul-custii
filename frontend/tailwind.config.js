@@ -7,6 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        display: ['"Bebas Neue"', 'sans-serif'],
+        ui: ['"Outfit"', 'sans-serif'],
+        body: ['"Manrope"', 'sans-serif'],
+      },
+      colors: {
+        crimson: {
+          DEFAULT: '#E60000',
+          hover: '#FF1A1A',
+        },
+        obsidian: '#0A0A0A',
+        surface: '#121212',
+      },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',

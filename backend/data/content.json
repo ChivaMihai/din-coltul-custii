@@ -1,0 +1,156 @@
+{
+  "settings": {
+    "siteName": "Din Colțul Cuștii",
+    "accentColor": "#E60000",
+    "socials": {
+      "instagram": "https://www.instagram.com/_mihai.mma/",
+      "youtube": "",
+      "tiktok": "https://www.tiktok.com/@mihaiiii.sw?_r=1&_t=ZN-98OaNiSyjws",
+      "email": "dincoltulcustii@gmail.com"
+    }
+  },
+  "home": {
+    "heroTitle": "Din Colțul Cuștii",
+    "heroText": "",
+    "heroImage": "/uploads/7967d697-2148-4d31-9ea0-fb1f2a8df671.jpeg",
+    "ctaText": "Citește povestea",
+    "marqueeText": "Disciplină · Sacrificiu · Sânge · Accidentări · Respect · Evoluție",
+    "stats": [
+      {
+        "value": "18",
+        "label": "Ani"
+      },
+      {
+        "value": "2",
+        "label": "Ani de MMA"
+      },
+      {
+        "value": "8",
+        "label": "Meciuri"
+      },
+      {
+        "value": "∞",
+        "label": "Lecții"
+      }
+    ],
+    "introTitle": "Nu e un jurnal pentru mine. E un jurnal pentru cine vrea să înțeleagă.",
+    "introText": "Aici scriu tot ce se întâmplă dincolo de reflectoare: frica de dinaintea luptei, greșelile care m-au costat, victoriile care mi-au arătat cine sunt de fapt și înfrângerile care m-au făcut să înțeleg că trebuie să muncesc mai mult."
+  },
+  "about": {
+    "overline": "Despre mine",
+    "title": "Am început la 15 ani, complet străin în sporturile de contact",
+    "image": "/uploads/0ed7b553-73da-4579-b8a5-f58e9e2a767a.jpeg",
+    "paragraphs": [
+      "Am intrat prima dată într-o sală de MMA la 15 ani și jumătate, dintr-o greșeală care avea să îmi schimbe percepția pentru acest sport. Planul meu era să mă apuc de kickbox, voiam să impresionez lumea, să mă vadă lumea cât de tare sunt. Când am aflat că, de fapt, am ajuns la MMA, m-am schimbat la față, dar am continuat. Nu știam nimic, nu știam să dau un pumn, nu știam să fac o proiectare, nu știam să fac o finalizare... dar am continuat.",
+      "Acum, la 18 ani, nu regret nimic și, dacă ar fi să dau timpul înapoi, aș mai face-o cu cea mai mare mândrie. Nu a fost vorba de laude, de faimă și nici măcar de sport în sine, a fost vorba de dorință, ambiție, respect și seriozitate."
+    ],
+    "quote": "Nu mă antrenez ca să demonstrez ceva cuiva. Mă antrenez ca să îmi demonstrez mie cât pot să îndur."
+  },
+  "competitions": {
+    "overline": "Competiții",
+    "title": "Fiecare meci este o lecție învățată. Câștigi, pierzi, mergi mai departe",
+    "intro": "Rezultatele nu spun toată povestea. Aici scriu despre pregătire, emoții, greșeli tactice și ce am învățat din fiecare urcare în cușcă.",
+    "image": "/uploads/98ac12e3-5489-45fa-a305-8293ce87370e.jpeg",
+    "fights": [
+      {
+        "date": "Iulie  2026",
+        "title": "Beast Arena IV",
+        "result": "Victorie · Decizie unanimă",
+        "location": "Râmnicu Vâlcea",
+        "description": "Cea mai importantă victorie a mea, un adversar foarte bun, foarte hotărât de câștig. Am dominat toate 3 rundele , reușind să duc lupta la sol cu ajutorul BJJ-ului (Jiu Jitsu Brazilian).",
+        "lesson": "Lupta la sol la amatori este predominantă în orice meci. Din 30 de sportivi care urcă in cușcă, cel puțin 15 o să ducă meciul jos în favoarea lor"
+      },
+      {
+        "date": "Aprilie 2026",
+        "location": "Azuga",
+        "title": "ADCC 2026 Nationals ",
+        "result": "Primul meci-câștigat la puncte",
+        "description": "Aveam emoții, chiar dacă în BJJ nu există lovituri ca în MMA, îmi era frică de eșec, persoanele de acasă ma urmăreau, colegii de antrenament și antrenorii erau cu mine. Însă am reușit să câștig la puncte.",
+        "lesson": "Indiferent de nivelul la care ai ajuns, emoțiile nu o să moară niciodată"
+      },
+      {
+        "date": "Aprilie 2026",
+        "location": "Azuga",
+        "title": "ADCC 2026 Nationals ",
+        "result": "Al doilea meci- pierdut prin submission",
+        "description": "A fost cel mai prost meci din viața mea, care m-a pus pe gânduri două săptămâni de zile. Eu, un puștan de 17 ani, față în față cu un bărbat de 37 de ani, cu o experiență dublă față de a mea și o categorie de greutate peste. Am acceptat să mă bat, știam că nu am prea multe șanse. Dar, în cele 5 minute cât a durat repriza, nu a reușit să mă învingă. Am intrat în prelungiri, unde EU am reușit să proiectez. Mai aveam 1 minut și jumătate și reușeam imposibilul. Însă, din păcate, am fost prins cu un illegal move, care a constat într-o presiune pe cervicală, și am cedat. Nu m-am ofticat pe moment prea tare, am fost mândru de mine că am ajuns atât de departe.",
+        "lesson": "Nu fi supărat că ai pierdut. Mândrește-te cu ce ai făcut în acel meci."
+      }
+    ]
+  },
+  "training": {
+    "overline": "Antrenamente",
+    "title": "Cea mai importantă parte din viața unui iubitor de sport, unde îți demonstrezi că poți și nu trebuie să renunți.",
+    "intro": "MMA înseamnă să fii pregătit peste tot: în picioare, în clinch și la sol. Iată cum recomand să le combini pe toate pentru reușită.",
+    "image": "/uploads/a1f6eeb9-9316-4ec4-9a99-6a7e9a8185d1.png",
+    "disciplines": [
+      {
+        "name": "BJJ",
+        "description": "Fundația jocului la sol. Poziții, tranziții și submisii. Aici înveți răbdarea."
+      },
+      {
+        "name": "Box & Kickbox",
+        "description": "Jocul de picioare, distanța și puterea loviturilor. Precizie peste forță."
+      },
+      {
+        "name": "Wrestling",
+        "description": "Cine dictează unde se dă lupta, dictează lupta. Doborâri și control."
+      },
+      {
+        "name": "Pregătire fizică",
+        "description": "Forță, explozivitate și rezistență."
+      }
+    ]
+  },
+  "mindset": {
+    "overline": "Mentalitate",
+    "title": "Lupta cea mai grea e cea cu propria persoană.",
+    "intro": "Cedezi pentru că așa ai decis, nu pentru că nu mai poți.",
+    "chapters": [
+      {
+        "title": "Disciplina",
+        "text": "Fac ce trebuie, mai ales când nu am chef, de ce? Pentru că altfel nu o să ajung unde îmi doresc."
+      },
+      {
+        "title": "Frica",
+        "text": "Nu vreau să nu-mi fie frică. Frica e importantă. Acolo unde mi-e cel mai teamă, acolo e drumul spre succes."
+      },
+      {
+        "title": "Încrederea",
+        "text": "Încrederea se câștigă în sală. Fiecare repetare e un pas în față spre visul tău."
+      }
+    ]
+  },
+  "equipment": {
+    "overline": "Echipament",
+    "title": "Echipamentul contează. Dar cine îl folosește contează mai mult.",
+    "intro": "Recenzii sincere despre echipamentul pe care îl folosesc: ce merită banii și ce nu.",
+    "items": [
+      {
+        "name": "Mănuși MMA",
+        "rating": "10/10",
+        "image": "/uploads/cff4cc8a-8c30-4990-8aa3-e6be7bdbe9fa.png",
+        "review": "Confecționate din piele sintetică 100%. Bandă lungă și reglabilă Velcro pentru o mai bună stabilizare. Construcție specială a părții interioare pentru stabilitate și siguranță. Design unic. Perfecte pentru sparring."
+      },
+      {
+        "name": "Tibiere tip șosetă",
+        "rating": "9/10",
+        "image": "/uploads/73252fef-f348-418d-a024-e3fc56529ace.webp",
+        "review": " Bumbac de înaltă calitate, moale la atingere. Se mulează natural pe picior. Nu se deplasează în timpul exercițiilor dinamice. Obligatorii pentru competițiile de MMA, sunt cea mai bună alegere, însă pentru sparring le prefer pe cele cu arici pentru un confort mai ridicat."
+      },
+      {
+        "name": "Proteză dentară",
+        "rating": "10/10",
+        "image": "/uploads/8f2ddb58-0be8-49db-9b16-46669b036b8a.webp",
+        "review": "Combinația de cauciuc exterior și gel interior asigură absorbția optimă a șocurilor. Gelul moale se mulează perfect pe dantura ta, oferind un confort de neegalat. Apreciată de campioni precum Mirel Drăgan și Cătălin Moroșanu pentru nivelul ridicat de protecție. Tratament antimicrobian ce previne acumularea bacteriilor, asigurând o utilizare îndelungată."
+      }
+    ]
+  },
+  "contact": {
+    "overline": "Contact",
+    "title": "Hai să vorbim.",
+    "text": "Ai o întrebare, o propunere sau vrei doar să vorbim despre dorințele tale? Scrie-mi. Răspund la fiecare mesaj sincer.",
+    "email": "dincoltulcustii@gmail.com"
+  },
+  "updated_at": "2026-07-28T00:48:54.591071+00:00"
+}
