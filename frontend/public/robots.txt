@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://din-coltul-custii.vercel.app/sitemap.xml
