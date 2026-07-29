@@ -7,6 +7,8 @@
     "coverImage": "/uploads/b44e1556-8478-4bd3-96e0-9d5a5c481459.jpeg",
     "category": "Lecții",
     "published": true,
+    "premium": false,
+"price": 0,
     "id": "6bbebf4e-3961-4638-9fe4-588d6b624a9e",
     "created_at": "2026-07-28T16:26:10.802101+00:00"
   },

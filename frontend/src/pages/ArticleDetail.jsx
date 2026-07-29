@@ -7,6 +7,7 @@ import { Reveal } from "@/components/site/Reveal";
 export default function ArticleDetail() {
   const { slug } = useParams();
   const [article, setArticle] = useState(null);
+ 
   const [notFound, setNotFound] = useState(false);
 
   useEffect(() => {
